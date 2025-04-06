@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Controller</title>
+</head>
+<body>
+  <button id="open">Open Magic Windows</button>
+
+  <script>
+    document.getElementById('open').onclick = () => {
+      window.open('child.html', 'win1', 'width=400,height=400,left=100,top=100');
+      window.open('child.html', 'win2', 'width=400,height=400,left=700,top=100');
+    };
+  </script>
+</body>
+</html>
